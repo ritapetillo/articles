@@ -1,0 +1,13 @@
+{
+  "name": "articles",
+  "version": "1.0.0",
+  "description": "bridge to webflow api ",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve src",
+    "build": "netlify-lambda build src",
+    "postinstall": "netlify-lambda install"  
+  },
+  "author": "RitaP",
+  "license": "ISC"
+}
