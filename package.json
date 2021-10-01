@@ -6,8 +6,11 @@
   "scripts": {
     "start": "netlify-lambda serve src",
     "build": "netlify-lambda build src",
-    "postinstall": "netlify-lambda install"  
+    "postinstall": "netlify-lambda install"
   },
   "author": "RitaP",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "netlify-lambda": "^2.0.14"
+  }
 }
